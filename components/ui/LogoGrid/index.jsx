@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import BP from '../../../public/logos/Bhagyoday Pumps Pvt. Ltd Greyscale.png'
-import PWT from '../../../public/logos/adobe.svg'
+// import PWT from '../../../public/logos/pwt.svg'
 import AR from '../../../public/logos/AR gradient.svg'
 import KK from '../../../public/logos/kk gradient.svg'
 import struct from '../../../public/logos/Layer 4.svg'
@@ -19,10 +19,10 @@ const logos = [
         src: KK,
         alt: "Karma Kinesis"
     },
-    {
-        src: PWT,
-        alt: "sendgrid"
-    },
+    // {
+    //     src: PWT,
+    //     alt: "sendgrid"
+    // },
     {
         src: BP,
         alt: "layers"
@@ -56,7 +56,7 @@ const LogoGrid = () => (
                 </ul>
             </div>
         </div>
-        <div class="slider">
+        {/* <div class="slider">
             <div class="slide-track">
                 <div class="slide">
                     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
@@ -98,7 +98,7 @@ const LogoGrid = () => (
                     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
                 </div>
             </div>
-        </div>
+        </div> */}
     </div>
 
 )
